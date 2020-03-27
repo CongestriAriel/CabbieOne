@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'StarWarMVVM' do
+  use_frameworks!
+
+  # Pods for StarWarMVVM
+    pod 'SwiftLint'
+    pod 'Alamofire', '~> 4.8.2'
+    pod 'PromiseKit', '~> 6.8.4'
+    pod 'lottie-ios'
+
+
+  target 'StarWarMVVMTests' do
+    inherit! :search_paths
+  end
+
+end
